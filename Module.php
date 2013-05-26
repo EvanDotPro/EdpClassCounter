@@ -25,7 +25,7 @@ class Module
                 ),
                 'profiler' => array(
                     'collectors' => array(
-                       'classcount' => 'ClassCounter\ClassCountCollector',
+                       'classcount' => 'EdpClassCounter\ClassCountCollector',
                     ),
                ),
             ),
