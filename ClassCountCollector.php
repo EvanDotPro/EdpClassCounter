@@ -1,5 +1,5 @@
 <?php
-namespace ClassCounter;
+namespace EdpClassCounter;
 
 use ZendDeveloperTools\Collector\AbstractCollector;
 use Zend\Mvc\MvcEvent;

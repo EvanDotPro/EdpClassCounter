@@ -1,5 +1,5 @@
 <?php
-namespace ClassCounter;
+namespace EdpClassCounter;
 
 class Module
 {
@@ -9,14 +9,9 @@ class Module
     {
         return array(
             'invokables' => array(
-                'ClassCounter\ClassCountCollector' => 'ClassCounter\ClassCountCollector',
+                'EdpClassCounter\ClassCountCollector' => 'EdpClassCounter\ClassCountCollector',
             ),
         );
-    }
-
-    public function onBootstrap()
-    {
-        //$test = new ClassCountCollector();
     }
 
     public function getConfig()
@@ -44,7 +39,7 @@ class Module
     {
         return array(
             'Zend\Loader\ClassMapAutoloader' => array(
-                array('ClassCounter\ClassCountCollector' => __DIR__ . '/ClassCountCollector.php'),
+                array('EdpClassCounter\ClassCountCollector' => __DIR__ . '/ClassCountCollector.php'),
             ),
         );
     }

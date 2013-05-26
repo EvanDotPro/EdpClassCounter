@@ -1,0 +1,25 @@
+{
+    "name": "evandotpro/edp-class-counter",
+    "description": "EdpClassCounter is very simple ZF2 that provides a collector for ZendDeveloperTools which counts how many classes were used for a request.",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/EvanDotPro/EdpClassCounter",
+    "authors": [
+        {
+            "name": "Evan Coury",
+            "email": "me@evancoury.com",
+            "homepage": "http://blog.evan.pro/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "classmap": [
+            "./Module.php"
+            "./ClassCountCollector.php"
+        ]
+    }
+}
